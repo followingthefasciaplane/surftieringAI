@@ -1,4 +1,4 @@
-# Counter-Strike Surf Map Tiering AI
+# Surf Map Tiering AI
 
 ## Overview
 
