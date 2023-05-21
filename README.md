@@ -15,6 +15,9 @@ The gameplay data I have considered potentially useful include the following par
 3. The average number of completions by players who have completed the map multiple times.
 4. The average skill level of players completing the map, gauged by the number of more difficult maps they have completed prior.
 5. A calculation based on the fastest and slowest completion times, with the hypothesis that the error margin is smaller on more difficult maps (potentially unreliable, many factors and inconsistent between maps).
+6. Average amount of players who gave up on completing the map (eg. over x time in zone and over y attempts without achieving a completion).
+7. Average skill level of players who gave up on completing the map.
+8. Comparison of this map data with other maps or benchmark maps.
 
 ## Approach
 
