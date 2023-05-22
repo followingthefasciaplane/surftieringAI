@@ -21,7 +21,7 @@ The gameplay data I have considered potentially useful include the following par
 7. Average skill level of players who gave up on completing the map.
 8. Comparison of this map data with other maps or benchmark maps.
 
-## Going Beyond Tiers
+### Going Beyond Tiers
 
 Eventually, this model and/or ensemble could not just judge a maps difficulty with a single score, but a multitude of scores for different aspects of gameplay; eg. a different difficulty score in relation to technical, unit-based surf, etc.
 
@@ -46,6 +46,17 @@ This could be done many ways:
 7. The GPS could be player-specific and dynamically change to optimal paths of improvement, instead of having a player following a line that is out of their playstyle and could be counterproductive to improving.
 
 This obviously will take much more time and thought than the initial model, however, it is pragmatic for a future model to function like this and even go far beyond this.
+
+### Mapping assistance
+
+The model could be of usage to mappers, to suggest where inconsistent chokepoints exist and offer mappers insight into how players are completing the level, which could prove useful for optimising routing and improving overall experience on a map. Some useful data may be;
+
+1. Positions where players of certain scores fail or succeed more often.
+2. Velocity window for successful and failed attempts on certain areas of the map.
+3. Overall heatmap analysis of failed and successful attempts, or any other gameplay data, and position / coordinates on the map correlating with this data.
+4. Individual scoring for separate sections of the map.
+5. Comparing the individual section scoring to that of popular surf maps.
+6. Suggesting improvements to align the map with the trends noticed in popular and maps that players enjoy.
 
 ## Approach
 
