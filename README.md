@@ -56,8 +56,10 @@ The model could be of usage to mappers, to suggest where inconsistent chokepoint
 3. Overall heatmap analysis of failed and successful attempts, or any other gameplay data, and position / coordinates on the map correlating with this data.
 4. Individual scoring for separate sections of the map.
 5. Comparing the individual section scoring to that of popular surf maps.
-6. Suggesting improvements to align the map with the trends noticed in popular and maps that players enjoy.
+6. Suggesting improvements to align the map with the trends noticed in popular maps and maps that players enjoy.
 7. The average tech, unit, or other player scoring of players that succeed or fail more frequently in certain sections of each map.
+8. Areas where players stop attempting completion after multiple failures in (eg. disconnect, map change, or no time in-zone).
+9. Trends of players giving up on a map at certain sections (suggesting players do not enjoy that section).
 
 ## Approach
 
