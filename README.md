@@ -32,7 +32,7 @@ This model could also score players on their strengths and weakpoints in their p
 3. Notice trends in players with similar stats, gameplay data that improved their score, gameplay data that didn't improve their score.
 4. Recommend players similar paths of optimal improvement that worked for other players with similar feature scoring to them.
 
-# In-depth analysis
+### In-depth analysis
 
 With a more extensive dataset, such as replay data that the model can interpret, theoretically the model could highlight a players weakpoints such as sharp right turns, etc.
 This could be done many ways:
