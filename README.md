@@ -57,6 +57,7 @@ The model could be of usage to mappers, to suggest where inconsistent chokepoint
 4. Individual scoring for separate sections of the map.
 5. Comparing the individual section scoring to that of popular surf maps.
 6. Suggesting improvements to align the map with the trends noticed in popular and maps that players enjoy.
+7. The average tech, unit, or other player scoring of players that succeed or fail more frequently in certain sections of each map.
 
 ## Approach
 
