@@ -19,6 +19,12 @@ The gameplay data I have considered potentially useful include the following par
 7. Average skill level of players who gave up on completing the map.
 8. Comparison of this map data with other maps or benchmark maps.
 
+## Going Beyond Tiers
+
+Eventually, this model and/or ensemble could not just judge a maps difficulty with a single score, but a multitude of scores for different aspects of gameplay; eg. a different difficulty score in relation to technical, unit-based surf, etc.
+
+This model could also score players on their strengths and weakpoints in their playstyle, and recommend them maps to practice on to improve their weakpoints and maps that they might enjoy. The possibilities are really limitless given enough data and resources.
+
 ## Approach
 
 The approach for this idea would be data-driven and I have drafted some steps for a potential approach outlined below:
