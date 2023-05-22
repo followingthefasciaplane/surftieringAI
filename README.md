@@ -28,7 +28,7 @@ This model could also score players on their strengths and weakpoints in their p
 1. A similar approach to the individual score, but with mutliple scores and different benchmarks for each individual score on each map.
 2. Profiling players individual skill level for these aspects based on their gameplay data from maps using these scores.
 3. Notice trends in players with similar stats, gameplay data that improved their score, gameplay data that didn't improve their score.
-4. Recommend players with similar styles similar paths of optimal improvement that worked for other players with similar feature scoring to them.
+4. Recommend players similar paths of optimal improvement that worked for other players with similar feature scoring to them.
 
 This obviously will take much more time and thought than the initial model, however, it is pragmatic for a future model to function like this and even go far beyond this.
 
