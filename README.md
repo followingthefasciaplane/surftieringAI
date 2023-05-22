@@ -68,6 +68,8 @@ On the contrary, the same logic could also be applied to positives and highlight
 This much computation for gameplay improvement is probably too expensive to perform on all players, which also allows for a unique opportunity to monetize this system via VIP features on your server.
 A good opportunity to help surf communities turn a profit with a monthly subscription based model. Prices for such a system could be upward of $25/month per player.
 
+This would also allow funding for more extensive training of the model to develop more advanced features.
+
 ## Approach
 
 The approach for this idea would be data-driven and I have drafted some steps for a potential approach outlined below:
