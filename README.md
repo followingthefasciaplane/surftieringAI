@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is an idea to develop an Artificial Intelligence model to objectively rank the difficulty of surf maps in Source engine games. Surf map difficulty rankings are currently determined subjectively by players, leading to inconsistent tiering, and what is known as "tier-deflation". 
+This is an idea to develop an Artificial Intelligence model to objectively rank the difficulty of surf maps in Source engine games, and eventually even function as a complete alternative to conventional ranking systems and offer in-depth guidance and analysis of gameplay, using exportable gameplay data / player statistics alone. Surf map difficulty rankings are currently determined subjectively by players, leading to inconsistent tiering, and what is known as "tier-deflation". 
 
 Platforms like Leetify have already done this for much more complex gameplay, this idea isn't unprecedented.
 
