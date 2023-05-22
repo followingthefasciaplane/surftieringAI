@@ -32,6 +32,19 @@ This model could also score players on their strengths and weakpoints in their p
 3. Notice trends in players with similar stats, gameplay data that improved their score, gameplay data that didn't improve their score.
 4. Recommend players similar paths of optimal improvement that worked for other players with similar feature scoring to them.
 
+# In-depth analysis
+
+With a more extensive dataset, such as replay data that the model can interpret, theoretically the model could highlight a players weakpoints such as sharp right turns, etc.
+This could be done many ways:
+
+1. Comparing trends in replay data with lost or gained velocity
+2. Comparing trends in replay data with failed attempts or successful attempts
+3. Comparing the above trends to ground-truth player data (eg. players who successfully complete the map often, what changed in their replay data for their attempts to succeed more frequently)
+4. Suggest output to align "undesirable" replay data / player weakpoints with the "desirable" ground-truth data, based on the existing replay data that resulted in better alignment of historical player completions.
+5. Could be both map-specific and overall player specific. Model could give suggestions on individual maps, or overall suggestions to improve.
+6. Model could act as a "GPS" and use beams or indicators to guide a player along ideal routes using visual markers.
+7. The GPS could be player-specific and dynamically change to optimal paths of improvement, instead of having a player following a line that is out of their playstyle and could be counterproductive to improving.
+
 This obviously will take much more time and thought than the initial model, however, it is pragmatic for a future model to function like this and even go far beyond this.
 
 ## Approach
