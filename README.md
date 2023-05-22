@@ -43,7 +43,7 @@ The approach for this idea would be data-driven and I have drafted some steps fo
 
 ## Potential Models
 
-Assuming that difficulty is a numerical linear score between 0 and 1, there could be certain scoring thresholds (eg. difficulty 0.854 output from model could be T7, which could assigned for scores within the 0.8-0.9 range).
+Assuming that difficulty is a numerical linear score between 0 and 1, there could be certain scoring thresholds (eg. difficulty 0.854 output from model could be T7, which could assigned for scores within the 0.8-0.9 range). The model will have no idea what an actual Tier is.
 Here are some potential models that could be useful:
 
 **Lienar Regression:** Linear regression is a simple and commonly used model for predicting a continuous output variable. It can be a good starting point to establish a baseline performance for the problem.
@@ -56,6 +56,8 @@ Here are some potential models that could be useful:
 
 **Neural Networks (e.g., MLP, CNN, RNN, or Transformer-based models):** Neural networks can model very complex functions and capture intricate patterns in data. They have been highly successful in many areas of AI. However, they require large amounts of data and computational resources, and can be tricky to optimize due to many hyperparameters. This one is probably less practical.
 
-It may be a good idea to start simple and progressively increase complexity, using multiple models and benchmarking their performance against each other. Data should also be split into training and validation (and possibly test) sets to assess the model's performance on unseen data and prevent overfitting. This could be done with certain benchmark maps (eg. surf_666 could be a benchmark for Tier 6).
+It may be a good idea to start simple and progressively increase complexity, using multiple models and benchmarking their performance against each other. Data should also be split into training and validation (and possibly test) sets to assess the model's performance on unseen data and prevent overfitting. 
+
+This could be done with certain benchmark maps (eg. surf_666 could be a benchmark for Tier 6). We could assign benchmark maps with a difficulty score that can be used as "ground-truth" data, and continue to refine the output until it can consistently match our benchmark scores.
 
 Let me know if you have any ideas.
