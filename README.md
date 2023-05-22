@@ -61,6 +61,8 @@ The model could be of usage to mappers, to suggest where inconsistent chokepoint
 8. Areas where players stop attempting completion after multiple failures in (eg. disconnect, map change, or no time in-zone).
 9. Trends of players giving up on a map at certain sections (suggesting players do not enjoy that section).
 
+On the contrary, the same logic could also be applied to positives and highlight areas of the map that players enjoy.
+
 ## Approach
 
 The approach for this idea would be data-driven and I have drafted some steps for a potential approach outlined below:
